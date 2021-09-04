@@ -1,0 +1,56 @@
+2021-09-04 16:18:07,136 - check_apiv2.py:33	 Test API is starting ...
+2021-09-04 16:18:08,151 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.24:80
+2021-09-04 16:18:08,172 - connectionpool.py:452	 http://10.200.39.24:80 "GET /boapiv2/accounts/0001359592/se HTTP/1.1" 200 51
+2021-09-04 16:18:08,173 - check_apiv2.py:45	 http://10.200.39.24/boapiv2/accounts/0001359592/se => Query ok, 200!
+2021-09-04 16:18:09,392 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.25:80
+2021-09-04 16:18:09,400 - connectionpool.py:452	 http://10.200.39.25:80 "GET /boapiv2/accounts/0001359592/se HTTP/1.1" 404 1245
+2021-09-04 16:18:09,400 - check_apiv2.py:49	 http://10.200.39.25/boapiv2/accounts/0001359592/se => Query fail, 404!
+2021-09-04 16:18:10,613 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.24:80
+2021-09-04 16:18:10,624 - connectionpool.py:452	 http://10.200.39.24:80 "GET /boapiv2/accounts/0001359592/se HTTP/1.1" 200 51
+2021-09-04 16:18:10,624 - check_apiv2.py:45	 http://10.200.39.24/boapiv2/accounts/0001359592/se => Query ok, 200!
+2021-09-04 16:18:11,831 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.25:80
+2021-09-04 16:18:11,838 - connectionpool.py:452	 http://10.200.39.25:80 "GET /boapiv2/accounts/0001359592/se HTTP/1.1" 404 1245
+2021-09-04 16:18:11,839 - check_apiv2.py:49	 http://10.200.39.25/boapiv2/accounts/0001359592/se => Query fail, 404!
+2021-09-04 16:18:13,045 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.24:80
+2021-09-04 16:18:13,055 - connectionpool.py:452	 http://10.200.39.24:80 "GET /boapiv2/accounts/0001359592/se HTTP/1.1" 200 51
+2021-09-04 16:18:13,056 - check_apiv2.py:45	 http://10.200.39.24/boapiv2/accounts/0001359592/se => Query ok, 200!
+2021-09-04 16:18:14,269 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.25:80
+2021-09-04 16:18:14,276 - connectionpool.py:452	 http://10.200.39.25:80 "GET /boapiv2/accounts/0001359592/se HTTP/1.1" 404 1245
+2021-09-04 16:18:14,277 - check_apiv2.py:49	 http://10.200.39.25/boapiv2/accounts/0001359592/se => Query fail, 404!
+2021-09-04 16:18:16,494 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.24:80
+2021-09-04 16:18:16,515 - connectionpool.py:452	 http://10.200.39.24:80 "GET /boapiv2/accounts/0001359592/ci HTTP/1.1" 200 804
+2021-09-04 16:18:16,516 - check_apiv2.py:45	 http://10.200.39.24/boapiv2/accounts/0001359592/ci => Query ok, 200!
+2021-09-04 16:18:17,719 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.25:80
+2021-09-04 16:18:17,727 - connectionpool.py:452	 http://10.200.39.25:80 "GET /boapiv2/accounts/0001359592/ci HTTP/1.1" 404 1245
+2021-09-04 16:18:17,727 - check_apiv2.py:49	 http://10.200.39.25/boapiv2/accounts/0001359592/ci => Query fail, 404!
+2021-09-04 16:18:18,944 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.24:80
+2021-09-04 16:18:18,958 - connectionpool.py:452	 http://10.200.39.24:80 "GET /boapiv2/accounts/0001359592/ci HTTP/1.1" 200 804
+2021-09-04 16:18:18,958 - check_apiv2.py:45	 http://10.200.39.24/boapiv2/accounts/0001359592/ci => Query ok, 200!
+2021-09-04 16:18:20,166 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.25:80
+2021-09-04 16:18:20,172 - connectionpool.py:452	 http://10.200.39.25:80 "GET /boapiv2/accounts/0001359592/ci HTTP/1.1" 404 1245
+2021-09-04 16:18:20,173 - check_apiv2.py:49	 http://10.200.39.25/boapiv2/accounts/0001359592/ci => Query fail, 404!
+2021-09-04 16:18:21,381 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.24:80
+2021-09-04 16:18:21,397 - connectionpool.py:452	 http://10.200.39.24:80 "GET /boapiv2/accounts/0001359592/ci HTTP/1.1" 200 804
+2021-09-04 16:18:21,397 - check_apiv2.py:45	 http://10.200.39.24/boapiv2/accounts/0001359592/ci => Query ok, 200!
+2021-09-04 16:18:22,605 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.25:80
+2021-09-04 16:18:22,612 - connectionpool.py:452	 http://10.200.39.25:80 "GET /boapiv2/accounts/0001359592/ci HTTP/1.1" 404 1245
+2021-09-04 16:18:22,612 - check_apiv2.py:49	 http://10.200.39.25/boapiv2/accounts/0001359592/ci => Query fail, 404!
+2021-09-04 16:18:24,834 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.24:80
+2021-09-04 16:18:24,884 - connectionpool.py:452	 http://10.200.39.24:80 "GET /boapiv2/accounts/0001359592 HTTP/1.1" 200 722
+2021-09-04 16:18:24,885 - check_apiv2.py:45	 http://10.200.39.24/boapiv2/accounts/0001359592 => Query ok, 200!
+2021-09-04 16:18:26,107 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.25:80
+2021-09-04 16:18:26,115 - connectionpool.py:452	 http://10.200.39.25:80 "GET /boapiv2/accounts/0001359592 HTTP/1.1" 404 1245
+2021-09-04 16:18:26,115 - check_apiv2.py:49	 http://10.200.39.25/boapiv2/accounts/0001359592 => Query fail, 404!
+2021-09-04 16:18:27,332 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.24:80
+2021-09-04 16:18:27,367 - connectionpool.py:452	 http://10.200.39.24:80 "GET /boapiv2/accounts/0001359592 HTTP/1.1" 200 722
+2021-09-04 16:18:27,368 - check_apiv2.py:45	 http://10.200.39.24/boapiv2/accounts/0001359592 => Query ok, 200!
+2021-09-04 16:18:28,584 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.25:80
+2021-09-04 16:18:28,597 - connectionpool.py:452	 http://10.200.39.25:80 "GET /boapiv2/accounts/0001359592 HTTP/1.1" 404 1245
+2021-09-04 16:18:28,598 - check_apiv2.py:49	 http://10.200.39.25/boapiv2/accounts/0001359592 => Query fail, 404!
+2021-09-04 16:18:29,805 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.24:80
+2021-09-04 16:18:29,828 - connectionpool.py:452	 http://10.200.39.24:80 "GET /boapiv2/accounts/0001359592 HTTP/1.1" 200 722
+2021-09-04 16:18:29,828 - check_apiv2.py:45	 http://10.200.39.24/boapiv2/accounts/0001359592 => Query ok, 200!
+2021-09-04 16:18:31,041 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.25:80
+2021-09-04 16:18:31,047 - connectionpool.py:452	 http://10.200.39.25:80 "GET /boapiv2/accounts/0001359592 HTTP/1.1" 404 1245
+2021-09-04 16:18:31,047 - check_apiv2.py:49	 http://10.200.39.25/boapiv2/accounts/0001359592 => Query fail, 404!
+2021-09-04 16:18:32,268 - check_apiv2.py:53	 API testing has ended!

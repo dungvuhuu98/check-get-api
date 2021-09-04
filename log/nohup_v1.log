@@ -1,0 +1,29 @@
+2021-09-04 16:04:15,645 - check_apiv1.py:33	 Test API is starting ...
+2021-09-04 16:04:15,653 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.24:80
+2021-09-04 16:04:15,685 - connectionpool.py:452	 http://10.200.39.24:80 "GET /boapi/boapi/accounts/0001359592 HTTP/1.1" 200 2605
+2021-09-04 16:04:15,686 - check_apiv1.py:44	 http://10.200.39.24/boapi/boapi/accounts/0001359592 => Query ok, 200!
+2021-09-04 16:04:16,888 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.25:80
+2021-09-04 16:04:16,901 - connectionpool.py:452	 http://10.200.39.25:80 "GET /boapi/boapi/accounts/0001359592 HTTP/1.1" 404 1245
+2021-09-04 16:04:16,902 - check_apiv1.py:48	 http://10.200.39.25/boapi/boapi/accounts/0001359592 => Query fail, 404!
+2021-09-04 16:04:18,109 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.26:80
+2021-09-04 16:04:18,152 - connectionpool.py:452	 http://10.200.39.26:80 "GET /boapi/boapi/accounts/0001359592 HTTP/1.1" 500 904
+2021-09-04 16:04:18,154 - check_apiv1.py:48	 http://10.200.39.26/boapi/boapi/accounts/0001359592 => Query fail, 500!
+2021-09-04 16:04:19,367 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.24:80
+2021-09-04 16:04:19,407 - connectionpool.py:452	 http://10.200.39.24:80 "GET /boapi/boapi/accounts/0001359592/loan HTTP/1.1" 200 2605
+2021-09-04 16:04:19,407 - check_apiv1.py:44	 http://10.200.39.24/boapi/boapi/accounts/0001359592/loan => Query ok, 200!
+2021-09-04 16:04:20,622 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.25:80
+2021-09-04 16:04:20,632 - connectionpool.py:452	 http://10.200.39.25:80 "GET /boapi/boapi/accounts/0001359592/loan HTTP/1.1" 404 1245
+2021-09-04 16:04:20,632 - check_apiv1.py:48	 http://10.200.39.25/boapi/boapi/accounts/0001359592/loan => Query fail, 404!
+2021-09-04 16:04:21,847 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.26:80
+2021-09-04 16:04:21,884 - connectionpool.py:452	 http://10.200.39.26:80 "GET /boapi/boapi/accounts/0001359592/loan HTTP/1.1" 500 904
+2021-09-04 16:04:21,884 - check_apiv1.py:48	 http://10.200.39.26/boapi/boapi/accounts/0001359592/loan => Query fail, 500!
+2021-09-04 16:04:23,090 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.24:80
+2021-09-04 16:04:23,122 - connectionpool.py:452	 http://10.200.39.24:80 "GET /boapi/boapi/accounts/0001359591 HTTP/1.1" 200 2605
+2021-09-04 16:04:23,122 - check_apiv1.py:44	 http://10.200.39.24/boapi/boapi/accounts/0001359591 => Query ok, 200!
+2021-09-04 16:04:24,331 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.25:80
+2021-09-04 16:04:24,341 - connectionpool.py:452	 http://10.200.39.25:80 "GET /boapi/boapi/accounts/0001359591 HTTP/1.1" 404 1245
+2021-09-04 16:04:24,341 - check_apiv1.py:48	 http://10.200.39.25/boapi/boapi/accounts/0001359591 => Query fail, 404!
+2021-09-04 16:04:25,556 - connectionpool.py:227	 Starting new HTTP connection (1): 10.200.39.26:80
+2021-09-04 16:04:25,599 - connectionpool.py:452	 http://10.200.39.26:80 "GET /boapi/boapi/accounts/0001359591 HTTP/1.1" 500 904
+2021-09-04 16:04:25,600 - check_apiv1.py:48	 http://10.200.39.26/boapi/boapi/accounts/0001359591 => Query fail, 500!
+2021-09-04 16:04:26,819 - check_apiv1.py:52	 API testing has ended!
